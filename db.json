@@ -1,19 +1,108 @@
 {
-  "posts": [
+  "electronics": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "headphone1",
+      "desc":" product 1",
+      "image":"../../../assets/images/headphone1.jpg",
+      "price": "100rs",
+      "ratings":"4.5"
+    },
+    {
+      "id": 2,
+      "name": "headphone2",
+      "desc":" product 2",
+      "image":"../../../assets/images/headphone2.jpg",
+      "price": "100rs",
+      "ratings":"4.5"
+    },
+    {
+      "id": 3,
+      "name": "headphone3",
+      "desc":" product 3",
+      "image":"../../../assets/images/headphone3.jpg",
+      "price": "100rs",
+      "ratings":"4.5"
     }
   ],
-  "comments": [
+  "cloths": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "cloth1",
+      "desc":" product 1",
+      "price": "100rs",
+      "image":"../../../assets/images/cloth1.jpg",
+      "ratings":"4.5"
+    },
+    {
+      "id": 2,
+      "name": "cloth2",
+      "desc":" product 2",
+      "price": "100rs",
+      "image":"../../../assets/images/cloth2.jpg",
+      "ratings":"4.5"
+    },
+    {
+      "id": 3,
+      "name": "cloth3",
+      "desc":" product 3",
+      "price": "100rs",
+      "image":"../../../assets/images/cloth2.jpg",
+      "ratings":"4.5"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "furnitures":[ 
+    {
+      "id": 1,
+      "name": "furniture1",
+      "desc":" product 1",
+      "price": "100rs",
+      "image":"../../../assets/images/fur2.jpg",
+      "ratings":"4.5"
+    },
+    {
+      "id": 2,
+      "name": "furntiure2",
+      "desc":" product 2",
+      "price": "100rs",
+      "image":"../../../assets/images/fur2.jpg",
+      "ratings":"4.5"
+    },
+    {
+      "id": 3,
+      "name": "furniture3",
+      "desc":" product 3",
+      "price": "100rs",
+      "image":"../../../assets/images/fur2.jpg",
+      "ratings":"4.5"
+    }
+
+  ],
+  "sports":[
+   {
+        "id": 1,
+        "name": "sports1",
+        "desc":" product 1",
+        "price": "100rs",
+        "image":"../../../assets/images/s2.jpg",
+        "ratings":"4.5"
+      },
+      {
+        "id": 2,
+        "name": "sports2",
+        "desc":" product 2",
+        "image":"../../../assets/images/s2.jpg",
+        "price": "100rs",
+        "ratings":"4.5"
+      },
+      {
+        "id": 3,
+        "name": "sports3",
+        "desc":" product 3",
+        "image":"../../../assets/images/s2.jpg",
+        "price": "100rs",
+        "ratings":"4.5"
+      }
+  ]
+
 }
